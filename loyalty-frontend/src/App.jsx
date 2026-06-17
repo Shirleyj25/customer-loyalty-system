@@ -2,7 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 
 function App() {
-  const baseUrl = "http://localhost:8080";
+  const baseUrl = "https://customer-loyalty-system-production.up.railway.app";
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
